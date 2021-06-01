@@ -16,18 +16,18 @@ export default function Main({ user, savedUser }) {
         state => state.matches.potentialMatches
     );
 
-    const savedUserSeeking = localStorage.getItem('savedUserSeeking');
+    // const savedUserSeeking = localStorage.getItem('savedUserSeeking');
 
     // => find potential matches
     useEffect(() => {
-        api.get(`users/matches/${savedUserSeeking}`, {
+        api.get(`users/matches/${user.seeking}`, {
             withCredentials: true,
         })
             .then(res => {
                 let response = res.data.results;
                 dispatch(
                     matchesActions.populate(
-                        response.filter(obj => !(obj._id === savedUser.id))
+                        response.filter(obj => !(obj._id === user.id))
                     )
                 );
             })

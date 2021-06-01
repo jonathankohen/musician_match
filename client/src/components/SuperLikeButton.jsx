@@ -6,9 +6,11 @@ export default function SuperLikeButton({ otherUserId, choiceHandler }) {
             <button
                 className="btn btn-primary"
                 type="button"
-                onClick={() => choiceHandler(otherUserId, 'ADD_TO_SUPERLIKED_USERS')}
+                onClick={() =>
+                    choiceHandler(otherUserId, 'ADD_TO_SUPERLIKED_USERS')
+                }
             >
-                Like
+                Super Like
             </button>
         </>
     );

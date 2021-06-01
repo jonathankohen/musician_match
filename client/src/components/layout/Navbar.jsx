@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import axios from 'axios';
 
-export default function Navbar({ user, setUser, savedUser }) {
+export default function Navbar({ user, setUser }) {
     const history = useHistory();
 
     const handleLogout = () => {
@@ -44,7 +44,7 @@ export default function Navbar({ user, setUser, savedUser }) {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            {user && savedUser ? (
+                            {user ? (
                                 <Link
                                     className="nav-link"
                                     to={`/edit/${user.id}`}
@@ -56,7 +56,7 @@ export default function Navbar({ user, setUser, savedUser }) {
                             )}
                         </li>
                         <li className="nav-item">
-                            {user && savedUser ? (
+                            {user ? (
                                 <Link className="nav-link" to="/top_matches">
                                     Top Matches
                                 </Link>
@@ -65,7 +65,7 @@ export default function Navbar({ user, setUser, savedUser }) {
                             )}
                         </li>
                         <li className="nav-item">
-                            {user && savedUser ? (
+                            {user ? (
                                 <Link className="nav-link" to="/directory">
                                     Directory
                                 </Link>
@@ -75,7 +75,7 @@ export default function Navbar({ user, setUser, savedUser }) {
                         </li>
                     </ul>
 
-                    {user && savedUser ? (
+                    {user ? (
                         <Link
                             className="text-secondary"
                             to="/logout"

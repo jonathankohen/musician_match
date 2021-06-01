@@ -28,11 +28,11 @@ export default function Login({ setUser }) {
             .then(res => {
                 if (res.data.user) {
                     setUser(res.data.user);
-                    localStorage.setItem('savedUser', res.data.user);
-                    localStorage.setItem(
-                        'savedUserSeeking',
-                        res.data.user.seeking
-                    );
+                    // localStorage.setItem('savedUser', res.data.user);
+                    // localStorage.setItem(
+                    //     'savedUserSeeking',
+                    //     res.data.user.seeking
+                    // );
                     history.push('/users');
                 } else {
                     console.log(res.data);
