@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.textShadow {
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.textShadowSm {
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.4), 0px 2px 3px rgba(0, 0, 0, 0.1),
+        0px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+$border-radius: 1rem;
+
+$font-family-sans-serif: 'Raleway', sans-serif;
+
+$font-weight-bolder: 500;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
