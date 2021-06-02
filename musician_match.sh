@@ -134,9 +134,7 @@ EOM
 
         # Creating files ignored by GitHub and adding private data
         echo "\n${YELLOW}Inserting environment variables...${NC}"
-        touch .gitignore
         touch .env
-        echo "# dependencies\nnode_modules/\n/.pnp\n.pnp.js\n\n# testing\n/coverage\n\n# production\n/build\n\n# misc\n.DS_Store\n.env\n.env.local\n.env.production.local\n\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*" >> .gitignore
         echo "PORT=${PORT}\nDB_NAME=${DB_NAME}\nSECRET_KEY=${SECRET}" >> .env
         echo "\n${BLUE}Environment variables in place!${NC} ${GREEN}\xE2\x9C\x94${NC}\n"
 
