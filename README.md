@@ -10,7 +10,9 @@ Musician Match is a one-stop-shop for musicians to find their ideal collaborator
 
 <!-- ![Demo Animation](client/src/assets/images/mm_gif.gif) -->
 
-![Demo Animation](../assets/gifs/mm_loginReg.gif?raw=true)
+![Demo Animation Part One](../assets/gifs/mm_loginReg.gif?raw=true)
+![Demo Animation Part Two](../assets/gifs/mm_about.gif?raw=true)
+![Demo Animation Part Three](../assets/gifs/mm_matchCard.gif?raw=true)
 
 ## Installation and Setup
 
