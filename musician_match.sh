@@ -138,9 +138,10 @@ EOM
         echo "PORT=${PORT}\nDB_NAME=${DB_NAME}\nSECRET_KEY=${SECRET}" >> .env
         echo "\n${BLUE}Environment variables in place!${NC} ${GREEN}\xE2\x9C\x94${NC}\n"
 
-        # Starting dev server
+        # Dev server prompt
         read -r -p "`echo ${BLUE}`Would you like to start the development server?`echo ${NC}` [Y/n]`echo $'\n> '`" SERVER_START
 
+        # Starting dev server
         if [[ "$SERVER_START" == [yY][eE][sS] || "$SERVER_START" == [yY] ]]; then
             npm run dev
             cat <<EOM
@@ -168,7 +169,6 @@ EOM
         cat <<EOM
         $(echo "${YODA}") 
 EOM
-	    
 		exit
 	;;
 
