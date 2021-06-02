@@ -28,13 +28,16 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 
 Simply run the (Star Wars themed!) script located at the root of the file and answer a few questions to automatically install dependencies, create environment variables, and start the development server for the first time. I tried to automate the process as much as possble!
 
-Make sure your current directory is the root of the project.
+#### Change current directory
+
 `cd <path/to/cloned/project>`
 
-Run the script
+#### Run the script
+
 `sh musician_match.sh`
 
 Answer a few questions, and watch the project boot up in front of you!
+
 ![Automation Script Screenshot](../assets/images/script_1.png?raw=true)
 
 ## Description
