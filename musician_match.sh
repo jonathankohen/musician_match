@@ -1,0 +1,1 @@
+# npm install @reduxjs/toolkit bcrypt concurrently cookie-parser cors dotenv express express-fileupload jquery jsonwebtoken mongoose react-redux uuid
