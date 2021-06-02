@@ -29,7 +29,7 @@ $(echo "${GREEN}")    __.-._
     '-._\"7'$(echo "${NC}")
      /'.-c
      \|  /T
-    $(echo "${GREEN}")_)_/LI$(echo "${NC}")"
+    $(echo "${GREEN}")_)_/LI\n$(echo "${NC}")"
 
 # Intro
 cat <<EOM
