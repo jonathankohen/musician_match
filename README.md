@@ -24,26 +24,18 @@ Musician Match is a one-stop-shop for musicians to find their ideal collaborator
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-Installation:
-`npm install`
-`cd client`
-`npm install`
+### Automation Script:
 
-Add a .env file at the root with port, key, and database name
+Simply run the (Star Wars themed!) script located at the root of the file and answer a few questions to automatically install dependencies, create environment variables, and start the development server for the first time. I tried to automate the process as much as possble!
 
-To Run Test Suite:
+Make sure your current directory is the root of the project.
+`cd <path/to/cloned/project>`
 
-`npm test`
+Run the script
+`sh musician_match.sh`
 
-To Start Server:
-
-`npm start`
-`cd client`
-`npm start`
-
-To Visit App:
-
-`localhost:3000`
+Answer a few questions, and watch the project boot up in front of you!
+![Automation Script Screenshot](../assets/images/script.png?raw=true)
 
 ## Description
 
