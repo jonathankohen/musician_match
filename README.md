@@ -6,12 +6,18 @@
 
 Musician Match is a one-stop-shop for musicians to find their ideal collaborator. Built using React, Express.js, Node.js, MongoDB, Bootstrap, Sass, Bourbon, and Animate.css.
 
-## Demo
+## Demo Animation
 
-<!-- ![Demo Animation](client/src/assets/images/mm_gif.gif) -->
+### Landing Page
 
 ![Demo Animation Part One](../assets/gifs/mm_loginReg.gif?raw=true)
+
+### About Page
+
 ![Demo Animation Part Two](../assets/gifs/mm_about.gif?raw=true)
+
+### Like or Dislike Potential Matches
+
 ![Demo Animation Part Three](../assets/gifs/mm_matchCard.gif?raw=true)
 
 ## Installation and Setup
