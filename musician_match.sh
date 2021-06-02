@@ -97,7 +97,11 @@ case $INPUT in
      |-/.____.'      | :       :
     /___\ /___\      '-'._----'
 "
-		# installing dependencies
+		cd ../..
+        mkdir test && cd test
+        
+
+        # installing dependencies
 		echo "\nInstalling dependencies..."
 		npm install
 		cd ../client
