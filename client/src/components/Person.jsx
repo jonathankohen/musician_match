@@ -1,10 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import ExampleImage from '../images/lind.jpeg';
-import ExampleImage2 from '../images/drumset.jpeg';
-import ExampleImage3 from '../images/gemma-evans-_0t4BBaeKSo-unsplash.jpg';
-// import ExampleSong from '../images/ex_song.mp3';
+import ExampleImage from '../assets/images/lind.jpeg';
+import ExampleImage2 from '../assets/images/drumset.jpeg';
+import ExampleImage3 from '../assets/images/gemma-evans-_0t4BBaeKSo-unsplash.jpg';
+// import ExampleSong from '../assets/images/ex_song.mp3';
 
 import LikeButton from './LikeButton';
 import SuperLikeButton from './SuperLikeButton';

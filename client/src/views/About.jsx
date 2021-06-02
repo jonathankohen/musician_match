@@ -9,10 +9,10 @@ import Spinner from 'react-bootstrap/Spinner';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 
-import jams from '../images/danny.jpeg';
-import pros from '../images/elijah.jpeg';
-import teachers from '../images/guitars.jpeg';
-import bands from '../images/john_tyson.jpeg';
+import jams from '../assets/images/danny.jpeg';
+import pros from '../assets/images/elijah.jpeg';
+import teachers from '../assets/images/guitars.jpeg';
+import bands from '../assets/images/john_tyson.jpeg';
 
 export default function About() {
     const [loaded, setLoaded] = useState(false);
