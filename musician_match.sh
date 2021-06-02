@@ -109,9 +109,9 @@ case $INPUT in
         touch .gitignore
         touch .env
 
-        echo "\n# dependencies\nnode_modules/\n/.pnp\n.pnp.js\n# testing\n/coverage\n# production\n/build\n# misc\n.DS_Store\n.env\n.env.local\n.env.production.local\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*" >> .gitignore2
+        echo "\n# dependencies\nnode_modules/\n/.pnp\n.pnp.js\n# testing\n/coverage\n# production\n/build\n# misc\n.DS_Store\n.env\n.env.local\n.env.production.local\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*" >> .gitignore
 
-        echo "PORT=${PORT}\nDB_NAME=${DB_NAME}\nSECRET_KEY=${SECRET}" >> .env2
+        echo "PORT=${PORT}\nDB_NAME=${DB_NAME}\nSECRET_KEY=${SECRET}" >> .env
     ;;
 	
 	[nN][oO]|[nN])
