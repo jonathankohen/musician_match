@@ -35,7 +35,7 @@ Run the script
 `sh musician_match.sh`
 
 Answer a few questions, and watch the project boot up in front of you!
-![Automation Script Screenshot](../assets/images/script.png?raw=true)
+![Automation Script Screenshot](../assets/images/script_1.png?raw=true)
 
 ## Description
 
