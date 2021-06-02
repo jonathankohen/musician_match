@@ -41,7 +41,7 @@ while [[ ! $PORT =~ ^[0-9]{4} ]]; do
         echo "\n${GREEN}Take care!${NC}\n"
         exit
     fi
-    read -p "Enter port number: " PORT
+    read -p "Enter port number: `echo $'\n> '`" PORT
 done
 
 read -r -p "Enter secret: `echo $'\n> '`" SECRET
@@ -97,30 +97,22 @@ case $INPUT in
      |-/.____.'      | :       :
     /___\ /___\      '-'._----'
 "
-		cd ../..
-        mkdir test && cd test
-        
-
-        # installing dependencies
-		echo "\nInstalling dependencies..."
-		npm install
-		cd ../client
-		npm install
-		cd ..
+		 # installing dependencies
+        echo "\nInstalling dependencies..."
+        npm install
+        cd client
+        npm install
+        cd ..
 
         # creating files ignored by GitHub using private data
+        echo "\Inserting environment variables..."
         touch .gitignore
         touch .env
 
-        echo "node_modules/\n.env" >> .gitignore
-        echo "PORT=${PORT}\nDB_NAME=${DB_NAME}\nSECRET_KEY=${SECRET}" >> .env
+        echo "\n# dependencies\nnode_modules/\n/.pnp\n.pnp.js\n# testing\n/coverage\n# production\n/build\n# misc\n.DS_Store\n.env\n.env.local\n.env.production.local\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*" >> .gitignore2
 
-        cd client
-        touch .gitignore
-        echo "# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.\n# dependencies\n/node_modules\n/.pnp\n.pnp.js\n# testing\n/coverage\n# production\n/build\n# misc\n.DS_Store\n.env.local\n.env.production.local\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*
-" >> .gitignore
-        cd ..
-	;;
+        echo "PORT=${PORT}\nDB_NAME=${DB_NAME}\nSECRET_KEY=${SECRET}" >> .env2
+    ;;
 	
 	[nN][oO]|[nN])
 		echo "\n${YELLOW}Please re-enter your data.${NC}"
