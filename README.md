@@ -1,5 +1,5 @@
 <div align="center" margin-bottom="20px">
-    <img src="client/src/images/mm_logo.png" alt="Logo" width="200" />
+    <img src="client/src/assets/images/mm_logo.png" alt="Logo" width="200" />
 </div>
 
 # Musician Match
@@ -8,7 +8,9 @@ Musician Match is a one-stop-shop for musicians to find their ideal collaborator
 
 ## Demo
 
-<!-- ![Demo Animation](../assets/client/src/assets/images/mmgif1.gif) -->
+<!-- ![Demo Animation](client/src/assets/images/mm_gif.gif) -->
+
+![Demo Animation](../assets/gifs/mm_loginReg.gif?raw=true)
 
 ## Installation and Setup
 

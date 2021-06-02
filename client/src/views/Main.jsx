@@ -10,7 +10,7 @@ const api = axios.create({
     baseURL: 'http://localhost:8000/api/',
 });
 
-export default function Main({ user, savedUser }) {
+export default function Main({ user }) {
     const dispatch = useDispatch();
     const potentialMatches = useSelector(
         state => state.matches.potentialMatches
