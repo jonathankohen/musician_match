@@ -4,7 +4,7 @@ export default function DislikeButton({ otherUserId, choiceHandler }) {
     return (
         <>
             <button
-                className="btn btn-dark px-5 py-2"
+                className="btn btn-dark px-5 py-2 shadow"
                 type="button"
                 onClick={() =>
                     choiceHandler(otherUserId, 'ADD_TO_DISLIKED_USERS')

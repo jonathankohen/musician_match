@@ -4,7 +4,7 @@ export default function LikeButton({ otherUserId, choiceHandler }) {
     return (
         <>
             <button
-                className="btn btn-primary px-5 py-2"
+                className="btn btn-primary px-5 py-2 shadow"
                 type="button"
                 onClick={() => choiceHandler(otherUserId, 'ADD_TO_LIKED_USERS')}
             >

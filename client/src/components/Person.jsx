@@ -118,7 +118,7 @@ export default function Person({
                             rel="noreferrer"
                             className="ml-3"
                         >
-                            <span class="badge badge-pill badge-primary">
+                            <span className="badge badge-pill badge-primary">
                                 Music
                             </span>
                         </a>
@@ -130,7 +130,7 @@ export default function Person({
                             rel="noreferrer"
                             className="ml-2"
                         >
-                            <span class="badge badge-pill badge-primary">
+                            <span className="badge badge-pill badge-primary">
                                 Website
                             </span>
                         </a>
