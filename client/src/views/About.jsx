@@ -29,7 +29,7 @@ export default function About() {
                         className="shadow-lg mx-auto animate__animated animate__fadeIn"
                         id="landing_hero"
                     >
-                        <h1 className="display-3 font-weight-bolder textShadowSm mb-4">
+                        <h1 className="font-weight-bolder textShadowSm mb-4">
                             Connect quickly.
                         </h1>
                         <blockquote className="blockquote">

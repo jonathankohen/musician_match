@@ -3,8 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import ExampleImage from '../assets/images/lind.jpeg';
 import ExampleImage2 from '../assets/images/drumset.jpeg';
-import ExampleImage3 from '../assets/images/gemma-evans-_0t4BBaeKSo-unsplash.jpg';
-// import ExampleSong from '../assets/images/ex_song.mp3';
+import ExampleImage3 from '../assets/images/horns.jpg';
 
 import LikeButton from './LikeButton';
 import SuperLikeButton from './SuperLikeButton';

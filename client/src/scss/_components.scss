@@ -1,7 +1,11 @@
 @import 'bourbon';
 
-.btn-lg {
-    width: 400px;
+#landing_hero {
+    background: linear-gradient(
+        to right,
+        rgba(249, 236, 255, 0.906) 0%,
+        rgba(229, 241, 255, 0.6) 100%
+    );
 }
 
 .btn-primary:hover {
@@ -48,41 +52,34 @@
     }
 }
 
-#bands {
-    background-color: tint($secondary_light, 55%);
-    &:hover {
-        background-color: tint($secondary_light, 75%);
+.card-deck {
+    #bands {
+        background-color: tint($secondary_light, 55%);
+        &:hover {
+            background-color: tint($secondary_light, 75%);
+        }
     }
-}
 
-#pros {
-    background-color: tint($primary_light, 55%);
-    &:hover {
-        background-color: tint($primary_light, 75%);
+    #pros {
+        background-color: tint($primary_light, 55%);
+        &:hover {
+            background-color: tint($primary_light, 75%);
+        }
     }
-}
 
-#teachers {
-    background-color: tint(white, 55%);
-    &:hover {
-        background-color: tint(rgb(249, 255, 139), 50%);
+    #teachers {
+        background-color: tint(white, 55%);
+        &:hover {
+            background-color: tint(rgb(249, 255, 139), 50%);
+        }
     }
-}
 
-#jams {
-    background-color: $tertiary_light;
-    &:hover {
-        background-color: tint($tertiary_light, 40%);
+    #jams {
+        background-color: $tertiary_light;
+        &:hover {
+            background-color: tint($tertiary_light, 40%);
+        }
     }
-}
-
-#landing_hero {
-    background: linear-gradient(
-        to right,
-        rgba(249, 236, 255, 0.906) 0%,
-        rgba(229, 241, 255, 0.6) 100%
-    );
-    // rgba(229, 241, 255, 0.6) 100%
 }
 
 .jumbotron-image {
@@ -91,28 +88,12 @@
             rgba(168, 116, 192, 0.5) 0%,
             rgba(138, 181, 232, 0.6) 100%
         ),
-        url('../assets/images/negative-space-man-playing-guitar-isaiah-colson.jpg');
+        url('../assets/images/drummer.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.jumbotron-image2 {
-    background-image: linear-gradient(
-            to right,
-            rgba(168, 116, 192, 1) 0%,
-            rgba(138, 181, 232, 0.5) 100%
-        ),
-        url('../assets/images/g_banner.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.seekingText {
-    color: $tertiary_dark;
-}
-
-#secText {
+#secInstText {
     color: $tertiary_dark;
 }

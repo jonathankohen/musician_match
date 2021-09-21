@@ -88,7 +88,7 @@ const Reg = props => {
                 className="jumbotron shadow-lg animate__animated animate__fadeInDown mt-5"
                 id="landing_hero"
             >
-                <h1 className="display-3 font-weight-bolder textShadowSm">
+                <h1 className="display-4 font-weight-bolder textShadowSm">
                     Musician Match.
                 </h1>
                 <p className="lead">
@@ -119,7 +119,11 @@ const Reg = props => {
                     <h1 className="display-4 font-weight-bolder text-center my-5 text-light text-underline textShadow">
                         Register:
                     </h1>
-                    <form onSubmit={handleSubmit} className="col-sm-5 mx-auto">
+                    <form
+                        onSubmit={handleSubmit}
+                        // className="col-sm-5 col-md-8 col-lg-12 mx-auto"
+                        className="col-lg-6 px-3 mx-auto"
+                    >
                         <div className="row mb-2">
                             <div className="col">
                                 <input
@@ -376,11 +380,11 @@ const Reg = props => {
                                 <div className="row mb-2">
                                     <div className="col-sm">
                                         <select
-                                            className="custom-select font-weight-bold secText"
+                                            className="custom-select font-weight-bold"
                                             name="secInst"
                                             onChange={handleInputChange}
                                             value={reg.secInst}
-                                            id="secText"
+                                            id="secInstText"
                                         >
                                             <option defaultValue>
                                                 Please Select a Secondary
@@ -433,7 +437,7 @@ const Reg = props => {
                                 type="submit"
                                 className="btn btn-primary btn-lg col-6 col-md-8 col-lg-6 mx-auto shadow mb-5 btnLight"
                             >
-                                Join Database
+                                Sign up
                             </button>
                         </div>
                     </form>
