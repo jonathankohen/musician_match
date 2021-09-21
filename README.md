@@ -16,19 +16,15 @@ You may then search our directory for your nearest match! Once you're ready, jus
 
 ### Landing Page
 
-![Demo Animation Part One](https://github.com/jonathankohen/musician_match/blob/assets/gifs/mm_about.gif)
-
-<!-- ![Demo Animation Part One](../assets/images/mm_loginReg.gif?raw=true) -->
-
-<!-- https://github.com/jonathankohen/musician_match/blob/assets/gifs/mm_about.gif -->
+![Demo Animation Part One](https://media.giphy.com/media/FnmoZBG4jvBMbIWQ1H/giphy.gif)
 
 ### About Page
 
-![Demo Animation Part Two](../assets/images/mm_about.gif?raw=true)
+![Demo Animation Part Two](https://media.giphy.com/media/TGTDBJY6XQeevQTS90/giphy.gif)
 
 ### Like or Dislike Potential Matches
 
-![Demo Animation Part Three](../assets/images/mm_matchCard.gif?raw=true)
+![Demo Animation Part Three](https://media.giphy.com/media/zIYRlGni7AljdOQMF2/giphy.gif)
 
 ## Installation and Setup
 
