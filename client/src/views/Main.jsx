@@ -16,8 +16,6 @@ export default function Main({ user }) {
         state => state.matches.potentialMatches
     );
 
-    // const savedUserSeeking = localStorage.getItem('savedUserSeeking');
-
     // => find potential matches
     useEffect(() => {
         api.get(`users/matches/${user.seeking}`, {
@@ -44,7 +42,7 @@ export default function Main({ user }) {
                 if (!user.likes.includes(userId)) {
                     user.likes.push(userId);
 
-                    // TODO: update potentialMatches state
+                    // TODO: update potentialMatches state, update DB
                     dispatch(
                         matchesActions.populate(
                             removeFromDataSrc(potentialMatches, userId)

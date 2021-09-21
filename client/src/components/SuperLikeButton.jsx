@@ -4,7 +4,7 @@ export default function SuperLikeButton({ otherUserId, choiceHandler }) {
     return (
         <>
             <button
-                className="btn btn-secondary text-light px-4 py-2"
+                className="btn btn-secondary text-light px-4 py-2 shadow"
                 type="button"
                 onClick={() =>
                     choiceHandler(otherUserId, 'ADD_TO_SUPERLIKED_USERS')
