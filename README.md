@@ -16,15 +16,15 @@ You may then search our directory for your nearest match! Once you're ready, jus
 
 ### Landing Page
 
-![Demo Animation Part One](../assets/gifs/mm_loginReg.gif?raw=true)
+![Demo Animation Part One](../assets/images/mm_loginReg.gif?raw=true)
 
 ### About Page
 
-![Demo Animation Part Two](../assets/gifs/mm_about.gif?raw=true)
+![Demo Animation Part Two](../assets/images/mm_about.gif?raw=true)
 
 ### Like or Dislike Potential Matches
 
-![Demo Animation Part Three](../assets/gifs/mm_matchCard.gif?raw=true)
+![Demo Animation Part Three](../assets/images/mm_matchCard.gif?raw=true)
 
 ## Installation and Setup
 
