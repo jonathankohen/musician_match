@@ -16,7 +16,11 @@ You may then search our directory for your nearest match! Once you're ready, jus
 
 ### Landing Page
 
-![Demo Animation Part One](../assets/images/mm_loginReg.gif?raw=true)
+![Demo Animation Part One](https://github.com/jonathankohen/musician_match/blob/assets/gifs/mm_about.gif)
+
+<!-- ![Demo Animation Part One](../assets/images/mm_loginReg.gif?raw=true) -->
+
+<!-- https://github.com/jonathankohen/musician_match/blob/assets/gifs/mm_about.gif -->
 
 ### About Page
 
